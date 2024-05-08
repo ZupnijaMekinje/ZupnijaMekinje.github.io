@@ -1,7 +1,7 @@
 let eventsTemplate = document.getElementById("eventsTemplate");
 
 let days = [
-  ['Dnevni program', ''],
+  ['Splošni program', ''],
   ['Kr\' korajžno, pridi in spoznaj!', 'Petek, 10. 5. 2024'],
   ['Kr\' korajžno, odpri svoje srce!', 'Sobota, 11. 5. 2024'],
   ['Kr\' korajžno na pot! ', 'Nedelja, 12. 5. 2024'],
@@ -16,57 +16,57 @@ let days = [
 
 let daysEvents = [
   [
-    ['Hvalnice:', 'Vsak delovnik ob 7.30 (Mekinje)'],
-    ['Spoved:', 'Pol ure pred in po vsaki maši v Mekinjah in Gozdu'],
-    ['Srečanje <br> veroučencev:', '1. – 5. razred PETEK, 17. 5. ob 15h <br> 6. – 8. razred SREDA, 15. 5. ob 16h'],
+    ['Hvalnice:', 'Vsak dan ob 7.30 med ponedeljkom in petkom, v Mekinjski cerkvi'],
+    ['Spoved:', 'Pol ure pred in po vsaki maši v Mekinjah in na Gozdu'],
+    ['Srečanje <br> veroučencev:', '1. – 5. razred: PETEK, 17. 5. ob 15h <br> 6. – 8. razred: SREDA, 15. 5. ob 16h'],
   ],
   [
-    ['19.00', 'ZAČETEK MISIJONA s sv. mašo in misijonskim nagovorom']
+    ['19.00', '<b>ZAČETEK MISIJONA</b> s sv. mašo in misijonskim nagovorom']
   ],
   [
-    ['8.00', 'Sv. maša na Gozdu, po maši z veroučenci in njihovimi starši'],
-    ['14.00 – 17.00', 'IGRIVO ŠPORTNO POPOLDNE za družine (Mekinje)'],
-    ['18.00', 'Sv. maša z misijonskim nagovorom'],
-    ['Po maši:', 'Verena Perko o znanih Mekinjčanih ob spremljavi Tomaža Plahutnika na citrah (Mekinje)'],
+    ['8.00', 'Sv. maša na Gozdu, po maši srečanje z veroučenci in njihovimi starši'],
+    ['14.00 – 17.00', '<b>Igrivo športno popoldne</b> za družine v Mekinjah'],
+    ['18.00', 'Sv. maša v Mekinjah z misijonskim nagovorom'],
+    ['19.00', '<b>Srečanje z zakoncema kastelic</b> v Domu krajevne skupnosti Godič<br><b>*Drugače kot na zgibanki!</b>'],
   ],
   [
-    ['7.00 in 10.00', 'Sv. maša z misijonskim nagovorom (Mekinje)'],
-    ['8.30', 'Sv. maša z misijonskim nagovorom (Gozd)'],
-    ['15.00', 'SREČANJE ŽUPNIJ MEKINJE IN GOZD na Kališu (Zbor: na avtobusni postaji, »pr&#39; pipci«, prevoz organiziran)'],
+    ['7.00 in 10.00', 'Sv. maša v Mekinjah z misijonskim nagovorom'],
+    ['8.30', 'Sv. maša na Gozdu z misijonskim nagovorom'],
+    ['15.00', '<b>Srečanje župnij Mekinje in Gozd na Kališu</b><br><i>Zbor: na avtobusni postaji, »pr&#39; pipci«, prevoz organiziran</i>'],
     ['15.30', 'Šmarnice, pete litanije in druženje na Kališu'],
   ],
   [
     ['14.30', 'Srečanje vaščanov na Brezjah nad Kamnikom'],
-    ['18.00', 'Sv. maša z misijonskim nagovorom'],
-    ['19.00', 'BITI ZRAVEN! Večer z zgodovinarjem, raziskovalcem, publicistom, TV novinarjem in urednikom dr. Jožetom Možina'],
+    ['18.00', 'Sv. maša v Mekinjah z misijonskim nagovorom'],
+    ['19.00', '<b>BITI ZRAVEN!</b><br> Večer z zgodovinarjem, raziskovalcem, publicistom, TV novinarjem in urednikom dr. Jožetom Možina'],
   ],
   [
-    ['18.00', 'Sv. maša z misijonskim nagovorom (Mekinje in Godič)'],
-    ['19.00', 'SREČANJE Z ZAKONCEMA KASTELIC v Domu krajevne skupnosti Godič'],
+    ['18.00', 'Sv. maša v Mekinjah in v Godiču z misijonskim nagovorom'],
+    ['Po maši', '<b>Verena Perko</b> o znanih Mekinjčanih ob spremljavi Tomaža Plahutnika na citrah v Mekinjah<br><b>*Drugače kot na zgibanki!</b>'],
   ],
   [
-    ['9.00', 'Sv. maša z misijonskim nagovorom (Rebolova kapela)'],
-    ['18.00', 'Sv. maša z misijonskim nagovorom'],
-    ['Po maši:', 'ADORACIJA S PETJEM IN MOŽNOSTJO ZA SPOVED'],
+    ['9.00', 'Sv. maša v REbolovi kapeli z misijonskim nagovorom'],
+    ['18.00', 'Sv. maša v Mekinjah z misijonskim nagovorom'],
+    ['Po maši', '<b>Adoracija s petjem in možnostjo za spoved</b>'],
   ],
   [
-    ['18.00', 'Sv. maša z misijonskim nagovorom'],
-    ['Po maši:', 'BLAGOSLOV GROBOV Z MOLITVIJO ZA RAJNE (pokopališče)'],
+    ['18.00', 'Sv. maša v Mekinjah z misijonskim nagovorom'],
+    ['Po maši', '<b>Blagoslov grobov z molitvijo za rajne na pokopališču</b>'],
   ],
   [
-    ['18.00', 'Sv. maša z misijonskim nagovorom'],
-    ['Po maši:', 'SREČANJE Z MLADIMI (veroučna učilnica)'],
+    ['18.00', 'Sv. maša v Mekinjah z misijonskim nagovorom'],
+    ['Po maši', '<b>Srečanje z mladimi v veroučni učilnici</b>'],
   ],
   [
-    ['8.00', 'Sv. maša z misijonskim nagovorom'],
-    ['14.00 – 17.00', 'ORATORIJSKE URICE za vso družino (župnišče Mekinje)'],
-    ['18.00', 'Sv. maša z misijonskim nagovorom in OBNOVITVIJO ZAKONSKIH OBLJUB'],
-    ['Po maši:', 'SREČANJE Z ZAKONCEMA ČUŠIN (cerkev Mekinje)'],
+    ['8.00', 'Sv. maša na Gozdu z misijonskim nagovorom'],
+    ['14.00 – 17.00', '<b>Oratorijske urice</b> za vso družino v župnišču Mekinje'],
+    ['18.00', 'Sv. maša v Mekinjah z misijonskim nagovorom in <b>obnovitvijo zakonskih zaobljub</b>'],
+    ['Po maši', '<b>Srečanje z zakoncema Čušin</b> v cerkvi v Mekinjah'],
   ],
   [
-    ['8.30', 'Sv. maša in ZAKLJUČEK MISIJONA NA GOZDU'],
-    ['10.00', 'SKLEP MISIJONA S PROTIPOTRESNO PROCESIJO, vabljene narodne noše'],
-    ['Po maši:', 'Druženje z okrepčilom'],
+    ['8.30', 'Sv. maša in <b>ZAKLJUČEK MISIJONA NA GOZDU</b>'],
+    ['10.00', '<b>SKLEP MISIJONA S PROTIPOTRESNO PROCESIJO</b><br><i>vabljene narodne noše</i>'],
+    ['Po maši', 'Druženje z okrepčilom'],
   ],
 ]
 
