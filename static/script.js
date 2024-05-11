@@ -21,7 +21,13 @@ let daysEvents = [
     ['Srečanje <br> veroučencev:', '1. – 5. razred: PETEK, 17. 5. ob 15h <br> 6. – 8. razred: SREDA, 15. 5. ob 16h'],
   ],
   [
-    ['19.00', '<b>ZAČETEK MISIJONA</b> s sv. mašo in misijonskim nagovorom']
+    ['19.00', `
+      <b>ZAČETEK MISIJONA</b> s sv. mašo in misijonskim nagovorom<br><br>
+      <audio controls>
+        <source src="static/audio/petek-10-5-2024.mp3" type="audio/mpeg">
+        <i>Posnetka žal ni mogoče predvajati</i>
+      </audio>
+    `]
   ],
   [
     ['8.00', 'Sv. maša na Gozdu, po maši srečanje z veroučenci in njihovimi starši'],
@@ -42,7 +48,7 @@ let daysEvents = [
   ],
   [
     ['18.00', 'Sv. maša v Mekinjah in v Godiču z misijonskim nagovorom'],
-    ['Po maši', '<b>Verena Perko</b> o znanih Mekinjčanih ob spremljavi Tomaža Plahutnika na citrah<br><i>Mekinjska cerkev</i><br><b>*Drugače kot na zgibanki!</b>'],
+    ['Po maši', '<b>Verena Perko</b> o znanih Mekinjčanih ob spremljavi Tomaža Plahutnika na citrah<br><i>Krajevni dom Godič</i><br><b>*Drugače kot na zgibanki!</b>'],
   ],
   [
     ['9.00', 'Sv. maša v Rebolovi kapeli z misijonskim nagovorom'],
