@@ -65,12 +65,19 @@ let daysEvents = [
     ['19.00', '<b>BITI ZRAVEN!</b><br> Večer z zgodovinarjem, raziskovalcem, publicistom, TV novinarjem in urednikom dr. Jožetom Možina<br><i>Mekinjska cerkev</i>'],
   ],
   [
-    ['18.00', 'Sv. maša v Mekinjah in v Godiču z misijonskim nagovorom'],
+    ['18.00', `
+      Sv. maša v Mekinjah in v Godiču z misijonskim nagovorom
+      <br><br><audio controls preload="none" style="width: 100%">
+        <source src="static/audio/torek-14-5-2024.mp3" type="audio/mpeg">
+        <i>Posnetka žal ni mogoče predvajati</i>
+      </audio>
+      <i>Mekinjski nagovor</i>
+    `],
     ['Po maši', '<b>Verena Perko</b> o znanih Mekinjčanih ob spremljavi Tomaža Plahutnika na citrah<br><i>Krajevni dom Godič</i><br><b>*Drugače kot na zgibanki!</b>'],
   ],
   [
     ['9.00', 'Sv. maša v Rebolovi kapeli z misijonskim nagovorom'],
-    ['18.00', 'Sv. maša v Mekinjah z misijonskim nagovorom'],
+    ['18.00', `Sv. maša v Mekinjah z misijonskim nagovorom`],
     ['Po maši', '<b>Adoracija s petjem in možnostjo za spoved</b><br><i>Mekinjska cerkev</i>'],
   ],
   [
