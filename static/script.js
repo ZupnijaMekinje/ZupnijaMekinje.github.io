@@ -23,7 +23,7 @@ let daysEvents = [
   [
     ['19.00', `
       <b>ZAČETEK MISIJONA</b> s sv. mašo in misijonskim nagovorom
-      <br><br><audio controls style="width: 100%">
+      <br><br><audio controls preload="none" style="width: 100%">
         <source src="static/audio/petek-10-5-2024.mp3" type="audio/mpeg">
         <i>Posnetka žal ni mogoče predvajati</i>
       </audio>
@@ -34,7 +34,7 @@ let daysEvents = [
     ['14.00 – 17.00', '<b>Igrivo športno popoldne</b> za družine v Mekinjah'],
     ['18.00', `
       Sv. maša v Mekinjah z misijonskim nagovorom
-      <br><br><audio controls style="width: 100%">
+      <br><br><audio controls preload="none" style="width: 100%">
         <source src="static/audio/sobota-11-5-2024.mp3" type="audio/mpeg">
         <i>Posnetka žal ni mogoče predvajati</i>
       </audio>
@@ -44,7 +44,7 @@ let daysEvents = [
   [
     ['7.00 in 10.00', `
       Sv. maša v Mekinjah z misijonskim nagovorom
-      <br><br><audio controls style="width: 100%">
+      <br><br><audio controls preload="none" style="width: 100%">
         <source src="static/audio/nedelja-12-5-2024.mp3" type="audio/mpeg">
         <i>Posnetka žal ni mogoče predvajati</i>
       </audio>
@@ -55,7 +55,13 @@ let daysEvents = [
   ],
   [
     ['14.30', 'Srečanje vaščanov na Brezjah nad Kamnikom'],
-    ['18.00', 'Sv. maša v Mekinjah z misijonskim nagovorom'],
+    ['18.00', `
+      Sv. maša v Mekinjah z misijonskim nagovorom
+      <br><br><audio controls preload="none" style="width: 100%">
+        <source src="static/audio/ponedeljek-13-5-2024.mp3" type="audio/mpeg">
+        <i>Posnetka žal ni mogoče predvajati</i>
+      </audio>
+    `],
     ['19.00', '<b>BITI ZRAVEN!</b><br> Večer z zgodovinarjem, raziskovalcem, publicistom, TV novinarjem in urednikom dr. Jožetom Možina<br><i>Mekinjska cerkev</i>'],
   ],
   [
