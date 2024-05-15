@@ -77,7 +77,13 @@ let daysEvents = [
   ],
   [
     ['9.00', 'Sv. maša v Rebolovi kapeli z misijonskim nagovorom'],
-    ['18.00', `Sv. maša v Mekinjah z misijonskim nagovorom`],
+    ['18.00', `
+      Sv. maša v Mekinjah z misijonskim nagovorom
+      <br><br><audio controls preload="none" style="width: 100%">
+        <source src="static/audio/sreda-15-5-2024.mp3" type="audio/mpeg">
+        <i>Posnetka žal ni mogoče predvajati</i>
+      </audio>
+    `],
     ['Po maši', '<b>Adoracija s petjem in možnostjo za spoved</b><br><i>Mekinjska cerkev</i>'],
   ],
   [
