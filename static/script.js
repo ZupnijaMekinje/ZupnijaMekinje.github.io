@@ -87,12 +87,18 @@ let daysEvents = [
     ['Po maši', '<b>Adoracija s petjem in možnostjo za spoved</b><br><i>Mekinjska cerkev</i>'],
   ],
   [
-    ['18.00', 'Sv. maša v Mekinjah z misijonskim nagovorom'],
+    ['18.00', 'Sv. maša v Mekinjah z misijonskim nagovorom<br><i>Posnetek ni na voljo</i>'],
     ['Po maši', '<b>Blagoslov grobov z molitvijo za rajne na pokopališču</b><br><i>Mekinje</i>'],
   ],
   [
-    ['18.00', 'Sv. maša v Mekinjah z misijonskim nagovorom'],
-    ['Po maši', '<b>Srečanje z mladimi v veroučni učilnici</b><br><i>Mekinje</i>'],
+    ['18.00', `
+      Sv. maša v Mekinjah z misijonskim nagovorom
+      <br><br><audio controls preload="none" style="width: 100%">
+        <source src="static/audio/petek-17-5-2024.mp3" type="audio/mpeg">
+        <i>Posnetka žal ni mogoče predvajati</i>
+      </audio>
+    `],
+    ['Po maši', '<b>Srečanje z mladimi v veroučni učilnici</b><br><i>Mekinje</i>']
   ],
   [
     ['8.00', 'Sv. maša na Gozdu z misijonskim nagovorom'],
