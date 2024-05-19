@@ -110,7 +110,13 @@ let daysEvents = [
         <i>Posnetka žal ni mogoče predvajati</i>
       </audio>
     `],
-    ['Po maši', '<b>Srečanje z zakoncema Čušin</b><br><i>Mekinjska cerkev</i>'],
+    ['Po maši', `
+      <b>Srečanje z zakoncema Čušin</b><br><i>Mekinjska cerkev</i>
+      <br><br><audio controls preload="none" style="width: 100%">
+        <source src="static/audio/misijon-mekinje-gozd-cusin.mp3" type="audio/mpeg">
+        <i>Posnetka žal ni mogoče predvajati</i>
+      </audio>
+    `],
   ],
   [
     ['8.30', 'Sv. maša in <b>ZAKLJUČEK MISIJONA NA GOZDU</b>'],
